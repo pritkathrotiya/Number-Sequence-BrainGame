@@ -95,10 +95,12 @@ function reduceButtonAndText(){
 	var btnStyle = document.getElementsByTagName('td');
 	for(var i=0 ; i<btnStyle.length; i++){
 		var temp=(100/divider);
+		var temp1=(6/divider);
 		var temp2=2.2/divider;
 		btnStyle[i].style.width=temp+'px';
 		btnStyle[i].style.height=temp+'px';
 		btnStyle[i].style.fontSize=temp2+'em';
+		document.getElementById('header').style.marginTop=temp1+'%';
 	}
 }
 
